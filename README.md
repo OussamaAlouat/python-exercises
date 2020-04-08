@@ -14,3 +14,11 @@ python3 main.py
 
 To run only one exercise:
 
+```bash
+python3 <exercise>.py
+```
+
+For example: 
+```
+python3 exercise1.py
+```
