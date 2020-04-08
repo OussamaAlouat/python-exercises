@@ -3,8 +3,10 @@
 from exercises.exercise1 import exercise1
 from exercises.exercise2 import exercise2
 
+exercises = [exercise1, exercise2]
 print('Welcome to the python exercises repository')
 print('##########################################')
-exercise1()
-print('##########################################')
-exercise2()
+
+for exercise in exercises:
+  exercise()
+  print('##########################################')
