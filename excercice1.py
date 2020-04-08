@@ -12,10 +12,10 @@ def calculatePerimeter(value):
 def calculateArea(value):
     return value * value
 
-def exercice1():
+def exercise1():
     squareSade = 3
     perimeter = calculatePerimeter(squareSade)
     area = calculateArea(squareSade)
-    print('# Excercice 1: ')
+    print('# Excercise 1: ')
     print('The perimeter is: ', perimeter)
     print('The area is: ', area)
